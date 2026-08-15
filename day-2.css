@@ -1,0 +1,32 @@
+/* Day Two · RISE — magical newspaper edition */
+.day-two-magic-page .masthead-meta b{color:var(--wine)}
+.day-two-magic-page .day1-hero{background:#20121c}
+.day-two-magic-page .day1-hero-copy:before{content:"Ⅱ"}
+.day-two-magic-page .hero-number{font-size:clamp(72px,9.5vw,142px);letter-spacing:-.06em}
+.day-two-magic-page .day1-hero h1{margin-top:34px}
+.rise-banner{background:linear-gradient(90deg,#b99d60,#d5c38f 48%,#b99d60)}
+.day-two-magic-page .rise-banner strong{letter-spacing:.05em}
+.day2-morning-grid figure:first-child img{object-position:center 42%}
+.day2-learning-grid .tall img{object-position:center 32%}
+.day2-module-gallery img{object-position:center 28%}
+.day2-rise-grid{grid-template-columns:1.22fr .78fr}
+.day2-rise-grid .night-lead{grid-row:span 3}
+.day2-rise-grid .night-lead img{min-height:760px}
+.day2-rise-grid figure:not(.night-lead) img{aspect-ratio:16/9}
+.day2-evening-photo .portrait-window{aspect-ratio:16/8.4}
+.day2-evening-photo img{object-position:center 42%}
+.rise-box strong{font-size:clamp(54px,5.5vw,82px)!important;letter-spacing:-.06em}
+.rise-box h3{margin-top:8px}
+@media(max-width:760px){
+  .day-two-magic-page .hero-number{font-size:76px}
+  .day2-rise-grid{grid-template-columns:1fr}
+  .day2-rise-grid .night-lead{grid-row:auto}
+  .day2-rise-grid .night-lead img{min-height:0;aspect-ratio:4/3}
+  .day2-rise-grid figure:not(.night-lead) img{aspect-ratio:4/3}
+  .day2-evening-photo .portrait-window{aspect-ratio:4/3}
+}
+@media(max-width:470px){
+  .day-two-magic-page .hero-number{font-size:64px}
+  .day-two-magic-page .day1-hero h1{font-size:34px}
+  .day-two-magic-page .rise-banner strong{font-size:20px}
+}
