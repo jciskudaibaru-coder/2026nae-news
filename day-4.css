@@ -1,0 +1,21 @@
+/* Day Four uses the shared editorial treatment in day-3.css. */
+.day-four-page .hero h1{max-width:100%;font-size:clamp(40px,4.6vw,88px);letter-spacing:-.065em}
+.day-four-page .gratitude-band{padding:65px clamp(22px,6vw,90px);background:rgba(92,23,33,.1);border-block:5px double var(--ink)}
+.day-four-page .gratitude-band h2,.day-four-page .awards h2{margin:10px 0 30px;font:700 clamp(34px,4.6vw,65px)/1 var(--display);text-transform:uppercase}.day-four-page .hug-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.day-four-page .hug-grid img{width:100%;aspect-ratio:4/5;object-fit:cover;filter:sepia(.14) saturate(.9)}.day-four-page .band-copy{max-width:850px;margin:30px auto 0;font-size:13px;line-height:1.85;text-align:center}
+.ceremony-lead{display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center}.ceremony-lead figure img{aspect-ratio:16/10}.ceremony-lead h3{margin:0 0 15px;color:var(--wine);font:700 28px var(--display);text-transform:uppercase}.ceremony-lead p{font-size:13px;line-height:1.9;text-align:justify}.speaker-grid,.award-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;margin-top:35px}.speaker-grid img,.award-grid img{aspect-ratio:4/5}
+.day-four-page .awards{padding:70px clamp(22px,6vw,90px);background:var(--green);color:var(--paper-light);border-block:5px double var(--ink)}.awards-head{max-width:750px}.awards-head .eyebrow{color:#d9bb75}.awards-head h2{margin-bottom:20px}.awards-head>p:last-child{font-size:13px;line-height:1.85}.award-feature{display:grid;grid-template-columns:1.2fr .8fr;gap:0;margin-top:35px;background:rgba(245,236,212,.1);border:1px solid rgba(245,236,212,.45)}.award-feature img{width:100%;height:100%;min-height:340px;object-fit:cover;filter:sepia(.12) saturate(.9)}.award-feature>div{padding:42px 35px;align-self:center}.award-feature span{color:#d9bb75;font:700 9px var(--display);letter-spacing:.12em;text-transform:uppercase}.award-feature h3{margin:15px 0;font:700 31px var(--display);text-transform:uppercase}.award-feature p{font-size:12px;line-height:1.85}.award-grid figcaption{color:var(--paper-light)}.team-award{margin-top:32px}.team-award img{aspect-ratio:16/7}.team-award figcaption{color:var(--paper-light)}.day-four-page .begin>div>p:not(.eyebrow){font-size:13px;line-height:1.85}
+@media(max-width:760px){.day-four-page .hug-grid{grid-template-columns:1fr 1fr}.ceremony-lead,.award-feature{grid-template-columns:1fr}.speaker-grid,.award-grid{grid-template-columns:1fr}.speaker-grid img,.award-grid img{aspect-ratio:16/10}.award-feature img{min-height:0;aspect-ratio:4/3}.team-award img{aspect-ratio:4/3}}
+
+/* Match Day One/Two's more generous desktop photography within the article column. */
+@media(min-width:1101px){
+  .day-four-page .day4-story>.story{padding-inline:0}
+  .day-four-page .gratitude-band{padding-inline:clamp(28px,3vw,46px)}
+  .day-four-page .awards{padding-inline:clamp(28px,3vw,46px)}
+  .day-four-page .hug-grid{gap:18px}
+  .day-four-page .speaker-grid,.day-four-page .award-grid{gap:20px}
+  .day-four-page .ceremony-lead{gap:40px}
+  .day-four-page .award-feature img{min-height:410px}
+}
+
+/* Day Four's image groups retain their full framing at every breakpoint. */
+.day-four-page .hug-grid img,.day-four-page .award-feature img{height:auto;min-height:0;aspect-ratio:auto;object-fit:contain;background:rgba(53,16,22,.08)}

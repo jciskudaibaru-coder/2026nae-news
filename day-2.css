@@ -17,6 +17,7 @@
 .day2-evening-photo img{object-position:center 42%}
 .rise-box strong{font-size:clamp(54px,5.5vw,82px)!important;letter-spacing:-.06em}
 .rise-box h3{margin-top:8px}
+.day-two-magic-page .day1-reflection h2{column-span:none}
 @media(max-width:760px){
   .day-two-magic-page .hero-number{font-size:76px}
   .day2-rise-grid{grid-template-columns:1fr}
@@ -30,3 +31,6 @@
   .day-two-magic-page .day1-hero h1{font-size:34px}
   .day-two-magic-page .rise-banner strong{font-size:20px}
 }
+
+.rise-banner.day-header-bar{background:var(--wine)}
+.rise-banner.day-header-bar strong{font:inherit}

@@ -1,0 +1,78 @@
+/* Shared Day Three and Day Four editorial treatment. */
+.day-three-page,.day-four-page{background:#19130f;color:var(--ink)}
+.day-three-page main,.day-four-page main{padding-bottom:65px}
+.day-three-page .masthead,.day-four-page .masthead{padding-bottom:0}
+.day-three-page figure,.day-four-page figure{margin:0}.day-three-page figure img,.day-four-page figure img{width:100%;display:block;object-fit:cover;filter:sepia(.14) saturate(.9) contrast(1.04);transition:filter .3s ease,transform .5s ease}.day-three-page figure:hover img,.day-four-page figure:hover img{filter:sepia(0) saturate(1);transform:scale(1.015)}
+.day-three-page figcaption,.day-four-page figcaption{padding:10px 7px 0;font-size:10px;line-height:1.55;font-style:italic;text-align:center}
+.day-three-page .hero,.day-four-page .hero{min-height:700px;margin-top:18px;display:grid;grid-template-columns:1.35fr .8fr;position:relative;overflow:hidden;background:var(--wine2);color:var(--paper-light);border-block:5px double var(--ink)}
+.day-three-page .hero-image,.day-four-page .hero-image{position:static;width:100%;height:100%;min-height:700px;object-fit:cover;filter:sepia(.2) saturate(.83) contrast(1.05)}
+.day-three-page .hero-shade,.day-four-page .hero-shade{display:none}
+.day-three-page .hero-copy,.day-four-page .hero-copy{max-width:none;align-self:center;padding:55px clamp(25px,4vw,64px);position:relative;overflow:hidden}.day-three-page .hero-copy:before,.day-four-page .hero-copy:before{position:absolute;right:-.02em;bottom:-.2em;color:rgba(233,221,189,.05);font:800 270px var(--display);line-height:1}.day-three-page .hero-copy:before{content:"Ⅲ"}.day-four-page .hero-copy:before{content:"Ⅳ"}.day-three-page .hero-copy>* ,.day-four-page .hero-copy>*{position:relative}
+.day-three-page .eyebrow,.day-four-page .eyebrow{margin:0 0 12px;font:700 9px var(--display);letter-spacing:.16em;text-transform:uppercase}.day-three-page .eyebrow.blue,.day-four-page .eyebrow.blue{color:var(--wine)}
+.day-three-page .hero h1,.day-four-page .hero h1,.day-three-page h2,.day-four-page h2{font-family:var(--display);text-transform:uppercase;line-height:.98}.day-three-page .hero h1,.day-four-page .hero h1{margin:0 0 22px;font-size:clamp(48px,7.2vw,104px);letter-spacing:-.055em}.day-three-page .hero h1 em,.day-four-page .hero h1 em,.day-three-page h2 em,.day-four-page h2 em{font-style:italic}.day-three-page .hero-copy>p:last-child,.day-four-page .hero-copy>p:last-child{max-width:650px;margin:0;font-size:13px;line-height:1.85}
+.issue-stamp,.scroll-cue{display:none}
+.live-strip{display:flex;justify-content:space-between;align-items:center;gap:22px;padding:15px clamp(22px,6vw,90px);background:var(--wine2);color:var(--paper-light);border-bottom:1px solid var(--gold);font-size:9px;letter-spacing:.12em;text-transform:uppercase}.live-strip strong{font-family:var(--display);color:var(--gold)}.live-strip time{font-variant-numeric:tabular-nums;white-space:nowrap}
+.day-header-bar{min-height:54px;margin:0;padding:0 clamp(22px,6vw,90px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) minmax(0,1fr);gap:18px;align-items:center;background:var(--wine);color:var(--paper-light);border-bottom:4px double var(--ink);font:700 9px/1.35 var(--display);letter-spacing:.12em;text-transform:uppercase}.day-header-bar strong,.day-header-bar span,.day-header-bar time{min-width:0;margin:0;font:inherit}.day-header-bar strong{text-align:left;color:var(--gold)}.day-header-bar span{text-align:center}.day-header-bar time{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.day-three-page .story,.day-four-page .story{padding:72px clamp(22px,6vw,90px)}
+.section-heading{display:grid;grid-template-columns:.5fr 1.5fr;gap:35px;align-items:end;margin-bottom:36px;padding-bottom:23px;border-bottom:4px double var(--ink)}.section-heading>div{display:flex;align-items:end;gap:14px}.section-heading .eyebrow{margin:0 0 8px}.section-no{font:800 clamp(54px,6vw,90px)/.75 var(--display);color:rgba(92,23,33,.2)}.section-heading h2{margin:0;font-size:clamp(34px,4.7vw,68px);letter-spacing:-.04em}
+.intro-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(25px,5vw,70px);align-items:center}.intro-copy,.copy{font-size:13px;line-height:1.9;text-align:justify}.intro-copy p,.copy p{margin-top:0}.dropcap:first-letter{float:left;font:700 69px/.72 var(--display);color:var(--wine);padding:10px 9px 0 0}.intro-copy blockquote,.copy blockquote{margin:30px 0 0;padding:22px 0;border-block:3px double var(--ink);color:var(--wine);font:italic 700 18px/1.65 var(--body);text-align:center}.feature-photo img{aspect-ratio:4/3}
+.photo-pair,.emotion-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:32px}.photo-pair img,.emotion-grid img{aspect-ratio:16/10}
+.insight-band{padding:62px clamp(22px,6vw,90px);display:grid;grid-template-columns:.7fr 1.3fr;gap:42px;background:var(--green);color:var(--paper-light);border-block:5px double var(--ink)}.insight-title>span{font:700 9px var(--display);letter-spacing:.14em;text-transform:uppercase;color:#d9bb75}.insight-title h2{margin:16px 0 0;font-size:clamp(34px,4.5vw,62px)}.insight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.insight-grid article{padding:14px 15px;border-left:1px solid rgba(245,236,212,.4)}.insight-grid b{color:#d9bb75;font:700 13px var(--display)}.insight-grid h3{margin:17px 0 10px;font:700 22px var(--display);text-transform:uppercase}.insight-grid p{margin:0;font-size:11px;line-height:1.7}
+.editorial-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.editorial-grid .wide{grid-column:1/-1}.editorial-grid .wide img{aspect-ratio:16/7}.editorial-grid>figure:not(.wide) img{aspect-ratio:4/3}.editorial-copy{grid-column:1/-1;align-self:start;padding:10px 0 2px;font-size:13px;line-height:1.8;text-align:left}.editorial-copy h3{margin:0 0 12px;color:var(--wine);font:700 28px var(--display);text-align:left;text-transform:uppercase}.editorial-copy p{margin:0 0 12px}
+.case-study{display:grid;grid-template-columns:.85fr 1.15fr;gap:28px;margin-top:50px;padding:45px clamp(22px,5vw,60px);background:rgba(92,23,33,.08);border:1px solid var(--wine);outline:6px double rgba(92,23,33,.35);outline-offset:-13px}.case-study h2{margin:11px 0 18px;font-size:clamp(35px,4vw,58px)}.case-study p:last-child{font-size:12px;line-height:1.8}.case-gallery{display:grid;grid-template-columns:1fr 1fr;gap:13px}.case-gallery img{width:100%;height:100%;min-height:270px;object-fit:cover;filter:sepia(.14) saturate(.9)}
+.moments{padding:70px clamp(22px,6vw,90px)}.moments-head{max-width:680px;margin-bottom:30px}.moments-head h2{margin:0;font-size:clamp(37px,5vw,68px)}.masonry{display:grid;grid-template-columns:1.1fr .9fr .9fr;gap:15px}.masonry .tall{grid-row:span 2}.masonry .tall img{height:100%;min-height:510px}.masonry figure:not(.tall) img{aspect-ratio:4/3}.masonry .wide{grid-column:2/-1}.masonry .wide img{aspect-ratio:16/7}
+.debate{display:grid;grid-template-columns:.78fr 1.22fr;gap:0;align-items:start;background:var(--wine2);color:var(--paper-light);border-block:5px double var(--ink)}.debate-copy{padding:46px clamp(24px,4vw,52px);align-self:start}.debate-copy h2{margin:10px 0 22px;font-size:clamp(34px,4.2vw,62px)}.debate-copy>p:last-child{margin:0;font-size:12px;line-height:1.85}.debate-images{display:grid;grid-template-columns:1fr;gap:12px;padding:12px}.debate-images img{width:100%;height:auto;min-height:0;object-fit:contain;filter:sepia(.24) saturate(.85)}
+.closing-image,.begin{min-height:510px;position:relative;display:grid;place-items:center;isolation:isolate;overflow:hidden;color:var(--paper-light);text-align:center;border-bottom:5px double var(--ink)}.closing-image>img,.begin>img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;filter:sepia(.35) saturate(.7) contrast(1.08)}.closing-image:before,.begin:before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(32,17,14,.58)}.closing-image>div,.begin>div{max-width:800px;padding:48px 24px}.closing-image p,.begin .eyebrow{margin:0 0 12px;font:700 10px var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}.closing-image h2,.begin h2{margin:0 0 24px;font-size:clamp(40px,5.8vw,80px)}.closing-image span,.begin span{font:700 10px var(--display);letter-spacing:.1em;text-transform:uppercase}
+@media(max-width:760px){.day-three-page .hero,.day-four-page .hero{min-height:0;grid-template-columns:1fr}.day-three-page .hero-image,.day-four-page .hero-image{min-height:0;aspect-ratio:4/3}.day-three-page .hero-copy,.day-four-page .hero-copy{padding:36px 20px 42px}.day-header-bar{min-height:52px;padding-inline:18px;gap:10px;font-size:8px}.section-heading,.intro-grid,.insight-band,.case-study,.debate{grid-template-columns:1fr}.section-heading{gap:18px}.section-heading>div{align-items:center}.insight-grid{grid-template-columns:1fr}.insight-grid article{padding-left:18px}.photo-pair,.emotion-grid,.editorial-grid,.case-gallery{grid-template-columns:1fr}.editorial-grid .wide{grid-column:auto}.editorial-grid .wide img{aspect-ratio:4/3}.case-gallery img{min-height:0;aspect-ratio:4/3}.masonry{grid-template-columns:1fr 1fr}.masonry .tall{grid-row:span 2}.masonry .tall img{min-height:0;aspect-ratio:auto}.masonry .wide{grid-column:1/-1}.masonry .wide img{aspect-ratio:16/9}.debate-images{min-height:0}.debate-images img{min-height:250px}.closing-image,.begin{min-height:430px}}
+@media(max-width:470px){.day-three-page .hero h1,.day-four-page .hero h1{font-size:45px}.hero-copy .eyebrow{max-width:250px}.scroll-cue{display:none}.day-header-bar{grid-template-columns:1fr;gap:3px;padding-block:10px;text-align:center}.day-header-bar strong,.day-header-bar span,.day-header-bar time{text-align:center}.day-four-page .day-header-bar strong{font-size:7.5px}.masonry{grid-template-columns:1fr}.masonry .tall,.masonry .wide{grid-column:auto;grid-row:auto}.masonry .tall img,.masonry .wide img{height:auto;aspect-ratio:4/3}.debate-images{grid-template-columns:1fr}.debate-images img{min-height:0;aspect-ratio:4/3}}
+
+/* Programme sidebars use the same newspaper pattern as Day One. */
+.day3-article-layout,.day4-article-layout{grid-template-columns:minmax(0,1.6fr) minmax(230px,.55fr);gap:36px;padding:38px clamp(20px,6vw,90px)}.day3-sidebar,.day4-sidebar{align-self:start;margin-top:34px}.day3-sidebar .day1-program ol,.day4-sidebar .day1-program ol{margin:0;padding:0;list-style:none}.day3-sidebar .day1-program li,.day4-sidebar .day1-program li{display:grid;grid-template-columns:minmax(82px,.75fr) minmax(0,2fr);gap:10px;padding:12px 0;border-top:1px solid var(--line)}.day3-sidebar .day1-program time,.day4-sidebar .day1-program time{color:var(--wine);font:700 9px var(--display);letter-spacing:.04em}.day3-sidebar .day1-program span,.day4-sidebar .day1-program span{min-width:0;overflow-wrap:anywhere;font-size:10px;line-height:1.5;font-weight:700}
+@media(min-width:1101px){.day3-sidebar,.day4-sidebar{position:sticky;top:28px}}
+@media(max-width:1100px){.day3-article-layout,.day4-article-layout{grid-template-columns:minmax(0,1fr)}.day3-sidebar,.day4-sidebar{display:block;margin:0}.day3-sidebar .day1-program,.day4-sidebar .day1-program{margin:0;padding-bottom:26px;border-bottom:3px double var(--ink)}}
+@media(max-width:760px){.day3-article-layout,.day4-article-layout{padding:32px 18px}}
+@media(max-width:470px){.day3-sidebar .day1-program li,.day4-sidebar .day1-program li{grid-template-columns:minmax(82px,.75fr) minmax(0,2fr)}}
+
+/* The sidebar already defines the desktop reading column; avoid a second wide inset that shrinks every photograph. */
+@media(min-width:1101px){
+  .day3-story>.story,.day4-story>.story,.day3-story>.moments{padding-inline:0}
+  .day3-story>.insight-band{padding-inline:clamp(28px,3vw,46px)}
+  .day3-story .case-study{padding-inline:clamp(26px,3vw,42px)}
+  .day3-story .photo-pair,.day3-story .editorial-grid,.day3-story .masonry{gap:20px}
+  .day3-story .feature-photo img{aspect-ratio:16/10}
+  .day3-story .editorial-grid .wide img{aspect-ratio:16/8}
+  .day3-story .masonry .tall img{min-height:590px}
+}
+
+/* Preserve complete photographs and keep captions visually connected to their images. */
+.day-three-page .hero-image,.day-four-page .hero-image,.day-three-page .day3-story img,.day-four-page .day4-story img{object-fit:contain;background:rgba(53,16,22,.08)}
+.day-three-page .day3-story img,.day-four-page .day4-story img{height:auto!important;min-height:0!important;aspect-ratio:auto!important}
+.day-three-page figcaption,.day-four-page figcaption{padding:5px 2px 0}
+.day-three-page .photo-pair,.day-four-page .emotion-grid{margin-top:20px}.day-three-page .photo-pair,.day-three-page .editorial-grid,.day-three-page .masonry,.day-four-page .speaker-grid,.day-four-page .award-grid{gap:12px}
+@media(min-width:761px){.day-three-page .masonry{grid-template-columns:1fr 1fr}.day-three-page .masonry .tall,.day-three-page .masonry .wide{grid-row:auto;grid-column:auto}.day-three-page .masonry .tall img{height:auto;min-height:0}.day-three-page .masonry .wide img{aspect-ratio:auto}}
+@media(max-width:760px){.day-three-page .hero-image,.day-four-page .hero-image{object-fit:contain}.day-three-page .photo-pair,.day-four-page .emotion-grid{margin-top:16px}.day-three-page .next-edition,.day-four-page .next-edition{margin-inline:18px}}
+
+/* Compact editorial card and robust tablet/mobile sizing. */
+.day3-story,.day4-story,.day3-story>*,.day4-story>*{min-width:0}
+.day3-story .case-study{align-items:center;margin-top:36px;padding-block:30px}
+.day3-story .case-study h2{font-size:clamp(34px,3.2vw,48px);line-height:1.02}
+.day3-story .case-study p:last-child{margin-bottom:0}
+.day3-story .case-gallery{align-self:center}
+@media(max-width:900px){
+  .day3-story .case-study{grid-template-columns:minmax(0,1fr);gap:24px;padding:30px 24px}
+  .day3-story .case-gallery{grid-template-columns:1fr 1fr;width:100%}
+}
+@media(max-width:760px){
+  .day-three-page .hero,.day-four-page .hero{margin-top:12px}
+  .day3-article-layout,.day4-article-layout{width:100%;max-width:100%;padding:28px 18px;overflow:hidden}
+  .day3-story .case-study{width:100%;margin:30px 0 0;padding:28px 20px;gap:22px;outline-width:4px;outline-offset:-9px}
+  .day3-story .case-study h2{font-size:clamp(34px,11vw,46px);overflow-wrap:normal;word-break:normal}
+  .day3-story .case-gallery{grid-template-columns:minmax(0,1fr);gap:10px}
+  .day3-story .case-gallery img{width:100%;max-width:100%}
+  .day3-sidebar,.day4-sidebar{width:100%;max-width:100%;overflow-wrap:anywhere}
+  .day3-sidebar .day1-program li,.day4-sidebar .day1-program li{grid-template-columns:minmax(78px,.7fr) minmax(0,2fr)}
+  .section-heading>div{display:block}
+  .section-heading .section-no{display:none}
+  .editorial-copy{padding-top:4px}
+  .debate-images{padding:0 12px 12px}
+}
